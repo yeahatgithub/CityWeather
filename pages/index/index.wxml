@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="today-future">
+  <view class="today">
+    <view class="today-info">
+      <view class="temp-now">{{temp_now}}</view>
+      <view class="today-weather">{{today_weather}}</view>
+      <view class="today-tips">{{today_tips}}</view>
+      <view class="city">{{city}}</view>
+    </view>
+  </view>
+  <view class="future">
+  </view>
+</view>

@@ -1,0 +1,36 @@
+/**index.wxss**/
+page{
+  height: 100%;
+}
+.today-future {
+  font-family: 微软雅黑, 黑体;
+  font-size: 20px;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../images/lanTianBaiYun.jpg");
+  color: black;
+}
+.today-info {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.5);
+}
+.today {
+  padding-top: 50rpx;
+  height: 50%;
+}
+.temp-now {
+  font-size: 48px;
+  text-align: center;
+}
+.city {
+  text-align: right;
+  font-size: 28px;
+  margin-right: 20rpx;
+  margin-top: 60rpx;
+}
+.today-weather {
+  text-align: center;
+  padding-bottom: 30rpx;
+}
